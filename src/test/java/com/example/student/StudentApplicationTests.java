@@ -13,7 +13,6 @@ class StudentApplicationTests {
 	void testStudentDetails() {
 
 		Student student = new Student();
-		student.setName("mani");
 		student.setAge(23);
 		student.setSalary(28000.0);
 
