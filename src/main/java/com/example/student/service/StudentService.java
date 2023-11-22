@@ -40,8 +40,9 @@ public class StudentService {
         }
     }
 
-    public void deleteStudent(int id) {
+    public String deleteStudent(int id) {
         studentRepository.deleteById(id);
+        return "Deleted";
     }
 }
 
