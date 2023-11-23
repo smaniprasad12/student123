@@ -13,12 +13,13 @@ class StudentApplicationTests {
 	void testStudentDetails() {
 
 		Student student = new Student();
+		student.setName("Mani");
 		student.setAge(23);
 		student.setSalary(28000.0);
 
 		assertEquals("mani", student.getName());
 		assertEquals(23, student.getAge());
-		assertEquals(28000, student.getSalary(), 0.001);
+		assertEquals(28000.0, student.getSalary());
 	}
 }
 
