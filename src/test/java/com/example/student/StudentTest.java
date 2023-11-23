@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StudentTest {
 	
+//private StudentService studentService;
 	private StudentService studentService;
     @Test
     public void testStudent() {
